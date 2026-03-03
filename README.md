@@ -2,7 +2,7 @@
 
 ---
 
-A minimal reference implementation of cron-based AI infrastructure monitoring using Hermes Agent.
+A minimal, production-oriented reference implementation of cron-based AI infrastructure monitoring using Hermes Agent.
 
 This toolkit demonstrates:
 
@@ -12,17 +12,21 @@ This toolkit demonstrates:
 - Headless cron-based orchestration
 - System-level gateway integration
 
+This repository includes reproducible cron configurations and example report outputs.
+
 ---
 
 ## 🏗 Architecture
 
-<pre>Hermes Cron Scheduler  
-        ↓  
-External API Ingestion  
-        ↓  
-Structured AI Analysis  
-        ↓  
-Local Markdown Reports  </pre>
+```text
+Hermes Cron Scheduler
+        ↓
+External API Ingestion
+        ↓
+Structured AI Analysis
+        ↓
+Local Markdown Reports
+```
 
 ---
 
