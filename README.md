@@ -91,6 +91,8 @@ Runs every 12 hours.
 
 Generates an ASCII dashboard summarizing infrastructure trends.
 
+The dashboard is generated automatically by Hermes cron jobs and reflects the latest infrastructure research trends detected by the agent.
+
 Includes:
 
 - research activity
@@ -100,7 +102,7 @@ Includes:
 
 Output file:
 
-reports/infrastructure_dashboard.md
+[reports/infrastructure_dashboard.md](reports/infrastructure_dashboard.md)
 
 ---
 
@@ -108,16 +110,22 @@ reports/infrastructure_dashboard.md
 
 ```text
 hermes-ai-infrastructure-monitoring-toolkit/
-│
-├── README.md
-├── setup.md
-├── architecture.md
-├── cron-config.md
-├── example_research_digest.md
-├── example_cost_projection.md
-├── reports/
-```
 
+├ README.md
+├ setup.md
+├ architecture.md
+├ cron-config.md
+├ guide.md
+├ system-architecture.png
+
+├ reports/
+│   ├ example_research_digest.md
+│   ├ example_cost_projection.md
+│   ├ example_infrastructure_trends.md
+│   ├ research_digest_*.md
+│   ├ infrastructure_trends.md
+│   └ infrastructure_dashboard.md
+```
 ---
 
 ## 📄 Example Output
