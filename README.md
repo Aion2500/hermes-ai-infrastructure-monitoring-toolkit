@@ -55,6 +55,16 @@ Then create the cron jobs described in the full deployment guide.
 
 ---
 
+## ▶ Quick Demo
+
+Generate reports and the monitoring dashboard manually:
+
+```bash
+hermes cron tick
+```
+
+---
+
 ## 🏗 Architecture
 
 ```text
@@ -104,6 +114,24 @@ Output file:
 
 [reports/infrastructure_dashboard.md](reports/infrastructure_dashboard.md)
 
+Example dashboard output:
+
+```
+============================================================ AI INFRASTRUCTURE
+RESEARCH DASHBOARD
+
+Report Metadata
+TOTAL REPORTS SCANNED: 4
+
+TOP INFRASTRUCTURE TRENDS
+[1] Training Efficiency Optimization
+[2] Inference Latency & KV Cache Optimization
+[3] Quantization-Aware Training
+[4] Production Readiness & Safety Systems
+
+Compute Risk Level: MODERATE-HIGH
+```
+
 ---
 
 ## 📦 Folder Structure
@@ -132,8 +160,8 @@ hermes-ai-infrastructure-monitoring-toolkit/
 
 Sample generated artifacts:
 
-- [`example_research_digest.md`](./example_research_digest.md)
-- [`example_cost_projection.md`](./example_cost_projection.md)
+- [`reports/example_research_digest.md`](./reports/example_research_digest.md)
+- [`reports/example_cost_projection.md`](./reports/example_cost_projection.md)
 
 Runtime outputs are written to the `/reports/` directory and are not version-controlled.
 
