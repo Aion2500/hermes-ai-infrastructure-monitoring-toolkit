@@ -4,9 +4,45 @@
 ![Infrastructure](https://img.shields.io/badge/AI-Infrastructure-purple)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+---
+
 > Autonomous AI infrastructure monitoring with Hermes Agent.  
 > Periodically analyzes AI research and infrastructure costs using scheduled agent workflows.  
 > Designed as a minimal reference for building safe long-running autonomous systems.
+
+---
+
+## Demo
+
+![Hermes Demo](hermes_demo.gif)
+
+---
+
+## Key Capabilities
+
+• Autonomous research monitoring
+• Infrastructure trend detection
+• AI compute risk analysis
+• Cost projection modeling
+• Terminal-style monitoring dashboard
+• Cron-based autonomous agent workflows
+
+---
+
+## Why This Matters
+
+AI infrastructure is evolving rapidly as new research introduces more efficient training
+methods, inference optimizations, and deployment techniques.
+
+This project demonstrates how autonomous agents can continuously monitor the research
+landscape and generate actionable infrastructure intelligence.
+
+Instead of manually tracking papers, Hermes agents can run long-lived workflows that:
+
+• detect infrastructure trends
+• estimate compute impact
+• summarize operational risks
+• generate monitoring dashboards
 
 ---
 
@@ -21,6 +57,11 @@ This toolkit demonstrates:
 - System-level gateway integration
 
 This repository includes reproducible cron configurations and example report outputs.
+
+## System Architecture
+
+The system runs autonomous Hermes workflows that continuously ingest AI research,
+analyze infrastructure relevance, and generate monitoring reports.
 
 ![Architecture](system-architecture.png)
 
