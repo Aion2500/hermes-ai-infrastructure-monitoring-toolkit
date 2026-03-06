@@ -3,6 +3,17 @@
 ![Automation](https://img.shields.io/badge/Hermes-Autonomous-blue)
 ![Infrastructure](https://img.shields.io/badge/AI-Infrastructure-purple)
 ![License](https://img.shields.io/badge/License-MIT-green)
+![Hackathon](https://img.shields.io/badge/Hackathon-Hermes%20Agent-orange)
+
+---
+
+## Project Status
+
+This project was created for the **Hermes Agent Hackathon (Nous Research)**.
+
+It demonstrates autonomous AI infrastructure monitoring using scheduled Hermes workflows.
+
+The system is designed as a minimal reference implementation for long-running agent automation.
 
 ---
 
