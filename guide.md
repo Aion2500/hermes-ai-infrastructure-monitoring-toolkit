@@ -95,12 +95,12 @@ Run every 360 minutes.
 Task:
 Fetch recent AI infrastructure papers from arXiv.
 
-Generate a structured markdown report including:
+Generate a markdown report using exactly the following structure:
 
-- Executive Summary
-- Core Idea
-- Infrastructure Relevance
-- Operational Considerations
+# Executive Summary
+# Core Idea
+# Infrastructure Relevance
+# Operational Considerations
 
 Save output to:
 
@@ -195,6 +195,7 @@ Recommended intervals:
 
 ```
 Research Digest → every 6 hours
+Infrastructure Dashboard → every 6 hours
 Cost Projection → every 12 hours
 ```
 
