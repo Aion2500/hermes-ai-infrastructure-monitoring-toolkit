@@ -140,21 +140,52 @@ Inside Hermes chat:
 ```
 Create a cronjob called "AI Infrastructure Monitoring Dashboard".
 
-Run every 360 minutes.
+Run every 720 minutes.
 
 Task:
-Scan the reports directory and generate a summary dashboard of
-detected infrastructure trends.
 
-Include:
+Scan the ./reports directory for research digest reports.
 
-total reports analyzed
+Analyze all available reports and detect recurring infrastructure trends.
 
-top infrastructure trends
+Compare recent reports with earlier reports to identify trend changes.
 
-compute risk level
+Generate a markdown dashboard using exactly the following structure:
 
-latest report status
+# AI Infrastructure Research Dashboard
+
+## Report Metadata
+- Total reports analyzed
+- Most recent report timestamp
+
+## Top Infrastructure Trends
+
+Rank the most common infrastructure trends across reports.
+
+For each trend indicate its status:
+
+↑ increasing  
+→ stable  
+↓ declining  
+🆕 emerging  
+
+Example:
+
+1. Training Efficiency Optimization ↑ increasing
+2. KV Cache Optimization → stable
+3. Quantization Techniques 🆕 emerging
+
+## Compute Risk Level
+
+Estimate overall infrastructure risk level:
+
+LOW / MODERATE / HIGH
+
+Provide a short explanation.
+
+## Latest Report Summary
+
+Summarize the newest research digest report.
 
 Save output to:
 
@@ -195,7 +226,7 @@ Recommended intervals:
 
 ```
 Research Digest → every 6 hours
-Infrastructure Dashboard → every 6 hours
+Infrastructure Dashboard → every 12 hours
 Cost Projection → every 12 hours
 ```
 
