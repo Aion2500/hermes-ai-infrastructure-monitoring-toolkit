@@ -128,11 +128,13 @@ hermes cron tick
 ```text
 Hermes Cron Scheduler
         ↓
-External API Ingestion
+AI Research Ingestion (arXiv)
         ↓
-Structured AI Analysis
+Structured Research Digests
         ↓
-Local Markdown Reports
+Trend Analysis Dashboard
+        ↓
+Infrastructure Monitoring Reports
 ```
 
 ---
