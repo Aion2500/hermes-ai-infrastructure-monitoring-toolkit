@@ -9,7 +9,8 @@ The system will:
 • estimate token usage and cost  
 • run automatically via scheduled jobs  
 
-This works on **Linux, macOS, and Windows**.
+This guide works on **Linux, macOS, and Windows** using a standard terminal
+(Bash, Zsh, or PowerShell).
 
 ---
 
@@ -42,7 +43,6 @@ Verify installation:
 ```bash
 hermes --help
 ```
-
 ---
 
 # 3. Login to Hermes
@@ -145,7 +145,7 @@ Check status:
 hermes cron status
 ```
 
-Trigger a manual run:
+Trigger a manual run of scheduled jobs:
 
 ```bash
 hermes cron tick
