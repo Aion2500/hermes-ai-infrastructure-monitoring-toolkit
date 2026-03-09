@@ -1,115 +1,158 @@
+================================================================================
+AI INFRASTRUCTURE MONITORING DASHBOARD
+================================================================================
+Generated: example_timestamp
+Report Period: Latest 10 digest records
+Analysis Source: ./reports directory scan
 
 ================================================================================
-                    AI INFRASTRUCTURE RESEARCH DASHBOARD
+INFRASTRUCTURE TRENDS ANALYSIS
 ================================================================================
 
-Report Metadata
-================================================================================
-TOTAL REPORTS SCANNED          : 4 research digest reports active
-LATEST REPORT TIMESTAMP        : 2026-03-03T15:06:04.217564Z
-REPORT FILENAME                : research_digest_2026-03-03T15-06-04.md
+CATEGORY                       COUNT    PERCENTAGE   TREND
+────────────────────────────────────────────────────────────
+Serverless/FaaS               8        18.2%        ▲ HIGH
+Federated Learning            7        15.9%        ▲ HIGH
+Distributed Systems           6        13.6%        ▲ RISING
+Edge Computing                5        11.4%        ▲ STABLE
+Model Optimization            5        11.4%        ▲ STABLE
+GPU/Hardware Acceleration     4        9.1%         ▲ STABLE
+Training Infrastructure       3        6.8%         → STABLE
+Inference Optimization        2        4.5%         → STABLE
+────────────────────────────────────────────────────────────
+TOTAL KEYWORDS ANALYZED       44       100%
 
-
-================================================================================
-                        TOP INFRASTRUCTURE TRENDS
-================================================================================
-
-[1] TRAINING EFFICIENCY OPTIMIZATION
-    Status: HIGH PRIORITY
-    Papers Affected: 2 of 3 recent reports
-    Focus Areas:
-    - Symbol-Equivariant Architectures (SE-RRMs)
-    - Structured reasoning models for reduced training overhead
-    - Algorithmic improvements for time-to-convergence reduction
-    Impact: Reduces compute requirements and training time through architectural
-            innovations avoiding expensive data augmentation strategies
-
-
-[2] INFERENCE LATENCY & KV CACHE OPTIMIZATION
-    Status: CRITICAL
-    Papers Affected: Referenced in example analysis
-    Focus Areas:
-    - Multi-Head Low-Rank Attention mechanisms
-    - Memory bandwidth reduction for long-context LLMs
-    - KV cache sharding during distributed decoding via Tensor Parallelism
-    Impact: Addresses O(n²) quadratic complexity bottlenecks in attention
-            Direct relevance to edge computing and cost reduction in cloud
-
-
-[3] QUANTIZATION-AWARE TRAINING
-    Status: HIGH PRIORITY
-    Papers Affected: Referenced in example analysis
-    Focus Areas:
-    - Low-bit attention (INT8 and sub-8 bit representations)
-    - Trainable quantization layers (SageBwd approach)
-    - Production inference compatibility
-    Impact: Enables deployment on edge devices, specialized hardware (TPUs)
-            Preserves accuracy while reducing bandwidth in distributed serving
-
-
-[4] PRODUCTION READINESS & SAFETY-CRITICAL SYSTEMS
-    Status: EMERGING CHALLENGE
-    Papers Affected: 3 recent papers emphasize this
-    Focus Areas:
-    - Code quality assessment in perception models
-    - Bridging research-to-deployment gap in autonomous systems
-    - Versioning, compatibility testing, rollback procedures
-    Impact: Direct safety and stability requirements for ML infrastructure
-            Requires collaboration between ML and DevOps teams
-
+Primary Focus Areas:
+• Serverless computing efficiency (MoEless, Provuse, FaaS optimization)
+• Distributed federated learning (FedSCS-XGB, LegalEdge, edge intelligence)
+• Edge device optimization (mobile VLMs, interactive segmentation)
+• Function composition & latency reduction
+• Health monitoring & real-time inference
 
 ================================================================================
-                      ESTIMATED COMPUTE RISK LEVEL
+KEY RESEARCH PAPERS (Ranked by Infrastructure Relevance)
 ================================================================================
 
-Current Trend Assessment: MODERATE-HIGH RISK
+[1] MoEless: Efficient MoE LLM Serving via Serverless Computing
+    arXiv: 2603.06350v1
+    Relevance: CRITICAL [25/15+]
+    Focus: Mixture-of-Experts optimization, serverless deployment, expert parallelism
+    Impact: Reduces operational complexity in distributed LLM serving
 
-Risk Factors Identified:
-  • Memory bandwidth bottlenecks in attention mechanisms (HIGH)
-  • Training efficiency still requires optimization (MEDIUM-HIGH)
-  • Production deployment complexity increasing (HIGH)
-  • Quantization validation requirements (MEDIUM)
+[2] Provuse: Platform-Side Function Fusion for FaaS Environments
+    arXiv: 2603.06170v1
+    Relevance: HIGH [11/15+]
+    Focus: Function fusion, latency reduction, double-billing elimination
+    Impact: Improves FaaS platform efficiency at runtime
 
-Mitigation Strategies Detected:
-  • Low-rank approximations reducing memory footprint
-  • Quantization-aware training enabling broader hardware support
-  • Structured architectural improvements reducing compute overhead
-  • Code quality frameworks improving production reliability
+[3] FedSCS-XGB: Federated Server-centric Surrogate XGBoost
+    arXiv: 2603.06224v1
+    Relevance: HIGH [13/15+]
+    Focus: Distributed health monitoring, federated learning, edge inference
+    Impact: Demonstrates edge-server collaboration patterns
 
-Recommended Action Items:
-  1. Implement low-rank attention mechanisms in serving infrastructure
-  2. Evaluate quantization-aware training for existing models
-  3. Establish production readiness testing frameworks
-  4. Monitor distribution shift in perception-critical workloads
+[4] Edge Intelligence-Driven LegalEdge for EV Charging
+    arXiv: 2603.06041v1
+    Relevance: MEDIUM [10/15+]
+    Focus: Federated learning at scale, decentralized optimization, smart contracts
+    Impact: Real-world federated infrastructure deployment
 
-
-================================================================================
-                        INFRASTRUCTURE SUMMARY
-================================================================================
-
-Era: 2026 Q1 - Focus on Efficiency & Reliability
-
-Key Inflection Points:
-  • Training: Symbol-equivariant and specialized architectures
-  • Inference: Low-rank and quantized attention mechanisms
-  • Deployment: Safety-critical system standards emerging
-
-Hardware Implications:
-  • GPU/TPU optimization for low-rank operations recommended
-  • Edge device compatibility becoming mandatory
-  • Bandwidth constraints driving architecture changes
-  • Specialized inference hardware (TPUs, mobile accelerators) gaining relevance
-
-Budget Impact Estimate: COST REDUCTION POTENTIAL
-  • Inference latency reduction: 20-40% through attention optimization
-  • Training time reduction: 15-30% via architectural improvements
-  • Bandwidth savings: 25-50% with quantization-aware approaches
-  • Operational overhead: Increasing due to production readiness requirements
-
+[5] Penguin-VL: Efficiency Limits of Compact VLMs
+    arXiv: 2603.06569v1
+    Relevance: MEDIUM [24 (reduced for domain relevance)]
+    Focus: Mobile/edge deployment, model compression, compute constraints
+    Impact: Edge inference on resource-constrained devices
 
 ================================================================================
-Report Generated: 2026-03-05T17:47:00Z
-Report Scope: Analysis of 4 research digest reports + 2 example digests
-Infrastructure Focus: Distributed training, optimization, deployment, inference
-Query Source: arXiv cs.LG and cs.AI categories
+INFRASTRUCTURE RISK ASSESSMENT
+================================================================================
+
+BOTTLENECK ANALYSIS:
+┌─────────────────────────────────────────────────────────────────────┐
+│ Critical Infrastructure Challenges Identified in Research            │
+├─────────────────────────────────────────────────────────────────────┤
+│ 🔴 CRITICAL: MoE Sparse Activation Complexity                       │
+│    - Expert parallelism creates scheduling overhead                  │
+│    - Mitigation: MoEless (serverless approach)                      │
+│                                                                     │
+│ 🟠 HIGH: FaaS Overhead & Function Composition                        │
+│    - Double billing when functions invoke each other                │
+│    - Latency from redundant scheduling                              │
+│    - Mitigation: Provuse (platform-side fusion)                     │
+│                                                                     │
+│ 🟡 MEDIUM: Edge-Cloud Coordination                                   │
+│    - Data centralization risks in federated scenarios               │
+│    - Network bottlenecks in real-time health monitoring             │
+│    - Mitigation: Federated learning protocols                       │
+│                                                                     │
+│ 🟡 MEDIUM: Resource Constraints on Mobile/Edge                      │
+│    - Compute-constrained deployment environments                    │
+│    - Model compression trade-offs                                   │
+│    - Mitigation: Compact VLM variants (2B, 8B parameter models)    │
+└─────────────────────────────────────────────────────────────────────┘
+
+BOTTLENECK:OPTIMIZATION RATIO
+  Bottleneck Issues: 8
+  Optimization Solutions: 7
+  Ratio: 1.14:1 (STABLE TREND)
+  
+  Status: ▲ IMPROVED from previous 4.33:1
+  Interpretation: More solution-focused research emerging
+
+================================================================================
+CAPABILITY MATRIX
+================================================================================
+
+Infrastructure Domain              Maturity    Evidence Level  Status
+─────────────────────────────────────────────────────────────────────
+Serverless Function Optimization   EMERGING    ★★★★☆          ADVANCING
+Federated Learning Platforms       DEVELOPING  ★★★★☆          ADVANCING
+Edge Device Inference              STABLE      ★★★★★          MATURE
+Distributed Model Training         STABLE      ★★★★☆          MATURE
+GPU Scheduling & Allocation        STABLE      ★★★☆☆          MATURE
+Network-Aware Optimization         DEVELOPING  ★★☆☆☆          EARLY
+
+================================================================================
+RECOMMENDATIONS FOR INFRASTRUCTURE PLANNING
+================================================================================
+
+SHORT-TERM (0-3 months):
+  ✓ Evaluate serverless platforms for MoE LLM serving
+  ✓ Assess FaaS function fusion opportunities in existing deployments
+  ✓ Profile edge device constraints for compact model deployment
+
+MID-TERM (3-6 months):
+  ✓ Implement federated learning for privacy-sensitive workflows
+  ✓ Pilot edge-cloud collaborative training patterns
+  ✓ Measure latency improvements from function composition
+
+LONG-TERM (6+ months):
+  ✓ Monitor emerging research on distributed MoE scaling
+  ✓ Build federated infrastructure for geographic load distribution
+  ✓ Plan migration to serverless-first architectures where applicable
+
+================================================================================
+REPORT STATISTICS
+================================================================================
+
+Analysis Metadata:
+  Reports Scanned: 10
+<<<<<<< HEAD
+  Primary Focus: research_digest_2026-03-09_15-00.md
+=======
+  Primary Focus: research_digest_example.md
+>>>>>>> 9f984b3 (Update example dashboard and remove runtime reports)
+  Secondary Analysis: research_digest_TEST.md
+  Infrastructure Keywords Found: 44
+  Papers Analyzed for Trends: 5 (highest relevance)
+  Unique Research Topics: 6
+  
+Data Quality:
+  Complete Digests: 9/10
+  Relevance Scores Available: 5/5
+  Trend Data Points: 6 categories
+  Analysis Confidence: HIGH ★★★★☆
+
+Generated by: AI Infrastructure Dashboard Generator
+Next Update: Recommend re-run after next research digest cycle
 ================================================================================
