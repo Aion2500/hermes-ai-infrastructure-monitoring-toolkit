@@ -177,19 +177,29 @@ Output file:
 Example dashboard output:
 
 ```
-============================================================ AI INFRASTRUCTURE
-RESEARCH DASHBOARD
+================================================================================
+AI INFRASTRUCTURE MONITORING DASHBOARD
+================================================================================
+Generated: example_timestamp
+Report Period: Latest 10 digest records
+Analysis Source: ./reports directory scan
 
-Report Metadata
-TOTAL REPORTS SCANNED: 4
+================================================================================
+INFRASTRUCTURE TRENDS ANALYSIS
+================================================================================
 
-TOP INFRASTRUCTURE TRENDS
-[1] Training Efficiency Optimization
-[2] Inference Latency & KV Cache Optimization
-[3] Quantization-Aware Training
-[4] Production Readiness & Safety Systems
-
-Compute Risk Level: MODERATE-HIGH
+CATEGORY                       COUNT    PERCENTAGE   TREND
+────────────────────────────────────────────────────────────
+Serverless/FaaS               8        18.2%        ▲ HIGH
+Federated Learning            7        15.9%        ▲ HIGH
+Distributed Systems           6        13.6%        ▲ RISING
+Edge Computing                5        11.4%        ▲ STABLE
+Model Optimization            5        11.4%        ▲ STABLE
+GPU/Hardware Acceleration     4        9.1%         ▲ STABLE
+Training Infrastructure       3        6.8%         → STABLE
+Inference Optimization        2        4.5%         → STABLE
+────────────────────────────────────────────────────────────
+TOTAL KEYWORDS ANALYZED       44       100%
 ```
 
 ---
