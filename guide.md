@@ -1,13 +1,15 @@
-# Deploying an Autonomous System with Hermes
+# Deploying an Autonomous AI Infrastructure Monitoring System with Hermes
 
 This guide shows how to deploy a small autonomous AI monitoring system using **Hermes Agent**.
 
-The system will:
+The system will automatically:
 
 • monitor AI infrastructure research (arXiv)  
-• generate structured markdown reports  
+• analyze emerging infrastructure risks  
+• track the AI infrastructure ecosystem (GitHub)  
+• generate structured monitoring reports  
 • estimate token usage and cost  
-• run automatically via scheduled jobs  
+• run continuously via scheduled Hermes cronjobs  
 
 This guide works on **Linux, macOS, and Windows** using a standard terminal
 (Bash, Zsh, or PowerShell).
@@ -43,6 +45,7 @@ Verify installation:
 ```bash
 hermes --help
 ```
+
 ---
 
 # 3. Login to Hermes
@@ -79,7 +82,7 @@ Launch the interactive environment:
 hermes chat
 ```
 
-This allows you to create autonomous jobs.
+This allows you to create autonomous workflows and scheduled jobs.
 
 ---
 
@@ -95,7 +98,7 @@ Run every 360 minutes.
 Task:
 Fetch recent AI infrastructure papers from arXiv.
 
-Generate a markdown report using exactly the following structure:
+Select infrastructure-relevant papers and generate a structured markdown report containing:
 
 # Executive Summary
 # Core Idea
@@ -109,33 +112,9 @@ Save output to:
 
 ---
 
-# 7. Create Cost Monitoring
+# 7. Create Infrastructure Monitoring Dashboard
 
 Add another cronjob:
-
-```
-Create a cronjob called "AI Infrastructure Cost Projection".
-
-Run every 720 minutes.
-
-Task:
-Estimate token usage based on job frequency.
-Project monthly cost.
-
-Generate a markdown report.
-
-Save output to:
-
-./reports/cost_projection_TIMESTAMP.md
-```
-
----
-
-# 8. Create Infrastructure Monitoring Dashboard
-
-Add a third cronjob to generate a monitoring dashboard.
-
-Inside Hermes chat:
 
 ```
 Create a cronjob called "AI Infrastructure Monitoring Dashboard".
@@ -146,46 +125,16 @@ Task:
 
 Scan the ./reports directory for research digest reports.
 
-Analyze all available reports and detect recurring infrastructure trends.
+Analyze infrastructure trends across reports.
 
-Compare recent reports with earlier reports to identify trend changes.
+Generate a markdown monitoring dashboard summarizing:
 
-Generate a markdown dashboard using exactly the following structure:
+• key infrastructure trends
+• research activity levels
+• infrastructure signals detected
+• recent report coverage
 
-# AI Infrastructure Research Dashboard
-
-## Report Metadata
-- Total reports analyzed
-- Most recent report timestamp
-
-## Top Infrastructure Trends
-
-Rank the most common infrastructure trends across reports.
-
-For each trend indicate its status:
-
-↑ increasing  
-→ stable  
-↓ declining  
-🆕 emerging  
-
-Example:
-
-1. Training Efficiency Optimization ↑ increasing
-2. KV Cache Optimization → stable
-3. Quantization Techniques 🆕 emerging
-
-## Compute Risk Level
-
-Estimate overall infrastructure risk level:
-
-LOW / MODERATE / HIGH
-
-Provide a short explanation.
-
-## Latest Report Summary
-
-Summarize the newest research digest report.
+Include a simple ASCII trend visualization.
 
 Save output to:
 
@@ -194,7 +143,101 @@ Save output to:
 
 ---
 
-# 9. Verify Jobs
+# 8. Create Infrastructure Risk Monitor
+
+Add another cronjob to generate infrastructure risk alerts.
+
+Inside Hermes chat:
+
+```
+Create a cronjob called "AI Infrastructure Risk Monitor".
+
+Run every 720 minutes.
+
+Task:
+
+Scan research digest reports.
+
+Detect signals related to:
+
+• GPU memory requirements
+• inference optimization
+• quantization techniques
+• model architecture changes
+• scalability constraints
+
+Identify potential compute bottlenecks or infrastructure risks.
+
+Generate a structured markdown alert report.
+
+Save output to:
+
+./reports/infrastructure_alerts.md
+```
+
+---
+
+# 9. Create AI Infrastructure Ecosystem Monitor
+
+Add another cronjob to monitor the AI infrastructure ecosystem.
+
+Inside Hermes chat:
+
+```
+Create a cronjob called "AI Infrastructure Ecosystem Monitor".
+
+Run every 720 minutes.
+
+Task:
+
+Search GitHub for trending AI infrastructure repositories.
+
+Focus on:
+
+• inference engines
+• model serving systems
+• distributed training frameworks
+• GPU optimization tools
+• LLM infrastructure
+
+Analyze approximately 10–15 repositories.
+
+Generate a markdown report describing ecosystem trends.
+
+Save output to:
+
+./reports/ai_ecosystem_report_TIMESTAMP.md
+```
+
+---
+
+# 10. Create Cost Projection Monitor
+
+Add another cronjob to estimate usage and cost projections.
+
+Inside Hermes chat:
+
+```
+Create a cronjob called "AI Infrastructure Cost Projection".
+
+Run every 720 minutes.
+
+Task:
+
+Estimate token usage based on job frequency.
+
+Project monthly usage and estimated cost.
+
+Generate a markdown cost report.
+
+Save output to:
+
+./reports/cost_projection_TIMESTAMP.md
+```
+
+---
+
+# 11. Verify Jobs
 
 List scheduled jobs:
 
@@ -208,7 +251,9 @@ Check status:
 hermes cron status
 ```
 
-Trigger a manual run of scheduled jobs:
+# Optional: Trigger Jobs Manually
+
+Some Hermes CLI versions allow manual triggering:
 
 ```bash
 hermes cron tick
@@ -218,7 +263,7 @@ Reports will appear in the **reports directory**.
 
 ---
 
-# 10. Production Scheduling Advice
+# 12. Production Scheduling Advice
 
 Autonomous agents can consume credits quickly.
 
@@ -227,6 +272,8 @@ Recommended intervals:
 ```
 Research Digest → every 6 hours
 Infrastructure Dashboard → every 12 hours
+Infrastructure Risk Monitor → every 12 hours
+AI Ecosystem Monitor → every 12 hours
 Cost Projection → every 12 hours
 ```
 
