@@ -1,9 +1,13 @@
-# 🧠 Hermes AI Infrastructure Monitoring Toolkit
+# 🧠 # 🧠 Hermes AI Infrastructure Monitoring Toolkit
 
 ![Automation](https://img.shields.io/badge/Hermes-Autonomous-blue)
 ![Infrastructure](https://img.shields.io/badge/AI-Infrastructure-purple)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Hackathon](https://img.shields.io/badge/Hackathon-Hermes%20Agent-orange)
+
+> Autonomous AI infrastructure monitoring with Hermes Agent.  
+> Continuously analyzes AI research, infrastructure risks, and ecosystem trends using scheduled autonomous workflows.  
+> Designed as a minimal reference implementation for building safe long-running Hermes agent systems.
 
 ---
 
@@ -12,10 +16,6 @@
 This project was originally created for the Hermes Agent Hackathon (Nous Research) as a demonstration of autonomous Hermes workflows.
 
 It demonstrates how scheduled Hermes workflows can power autonomous infrastructure intelligence systems.
-
-> Autonomous AI infrastructure monitoring with Hermes Agent.  
-> Periodically analyzes AI research and infrastructure costs using scheduled agent workflows.  
-> Designed as a minimal reference implementation for building safe long-running Hermes agent systems.
 
 ---
 
@@ -39,13 +39,13 @@ This helps the project reach more developers exploring Hermes agents.
 
 ## Key Capabilities
 
-• Autonomous AI research monitoring
-• Infrastructure trend detection
-• AI compute risk analysis
-• Infrastructure ecosystem monitoring (GitHub)
-• Cost projection modeling
-• Terminal-style monitoring dashboard
-• Cron-based autonomous agent workflows
+- Autonomous AI research monitoring
+- Infrastructure trend detection
+- AI compute risk analysis
+- Infrastructure ecosystem monitoring (GitHub)
+- Cost projection modeling
+- Terminal-style monitoring dashboard
+- Cron-based autonomous agent workflows
 
 ---
 
@@ -59,10 +59,10 @@ landscape and generate actionable infrastructure intelligence.
 
 Instead of manually tracking infrastructure signals across research and tools, Hermes workflows can:
 
-• detect infrastructure trends  
-• estimate compute impact  
-• summarize operational risks  
-• generate monitoring dashboards
+- detect infrastructure trends  
+- estimate compute impact  
+- summarize operational risks  
+- generate monitoring dashboards
 
 ---
 
