@@ -6,7 +6,7 @@
 
 ## 🌟 What is hermes-ai-infrastructure-monitoring-toolkit?
 
-This tool helps you monitor your AI infrastructure automatically. It works by using the Hermes Agent, which collects data at set times using cron jobs. The software tracks your system, forecasts costs, and runs quietly in the background without a user interface. It also supports systemd for easy setup on Linux, but here we focus on Windows. The tool is ideal for keeping an eye on servers handling machine learning tasks or AI research.
+This tool helps you monitor your AI infrastructure automatically. It works by using the Hermes Agent, which collects data at set times using cron jobs. The software tracks your system, forecasts costs, and runs quietly in the background without a user interface. It also supports systemd for easy setup on Linux, but here we focus on Windows. The tool is ideal for keeping an eye on servers handling machine learning tasks or AI research. Optional Hermes Tweet-compatible Xquik API support can add public X/Twitter ecosystem signals to the monitoring reports.
 
 ---
 
