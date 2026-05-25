@@ -209,6 +209,28 @@ Save output to:
 ./reports/ai_ecosystem_report_TIMESTAMP.md
 ```
 
+Optional X/Twitter signal source:
+
+If you have a Hermes Tweet-compatible Xquik read key, add public X/Twitter
+infrastructure chatter to the ecosystem monitor without changing the core
+Hermes cron setup.
+
+Store the credential outside the repository:
+
+```bash
+export HERMES_TWEET_API_KEY="replace-with-your-key"
+export XQUIK_BASE_URL="https://xquik.com"
+```
+
+`XQUIK_API_KEY` also works as a compatibility alias. Then update the ecosystem
+monitor task to query public X/Twitter signals for AI infrastructure keywords,
+read tweet replies on high-signal threads, look up users sharing
+infrastructure work, and monitor tweets from relevant open-source project
+maintainers. Keep the monitoring job read-focused. Do not post tweets, post
+tweet replies, upload media, send direct messages, or create recurring monitors
+unless an operator adds a separate approval step that records the exact account,
+target, text, media, cadence, and webhook destination before execution.
+
 ---
 
 # 10. Create Cost Projection Monitor
